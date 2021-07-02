@@ -1,0 +1,25 @@
+.navbar{
+    flex-direction: column;
+    /* justify-content: flex-end;
+    align-items: flex-start; */
+}
+.navList{
+    display: none;   
+}
+.nav-container{
+    display: flex;
+}
+.navListMobile{
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    padding: 0;
+}
+#ham{
+    display: inline-block;
+    align-self: flex-end;
+}
+.register-form{
+    width: 80vw;
+}
+
