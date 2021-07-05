@@ -18,6 +18,7 @@
 #ham{
     display: inline-block;
     align-self: flex-end;
+    margin: 0px 10px 0px 80px;
 }
 .register-form{
     width: 80vw;
