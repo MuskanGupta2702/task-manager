@@ -22,4 +22,15 @@
 .register-form{
     width: 80vw;
 }
-
+.add-todo-form{
+    width: 80%;
+}
+.table-box{
+    width: 85%;
+}
+.message-box{
+    width: 80%;
+}
+.message-box p{
+    text-align: center;
+}
