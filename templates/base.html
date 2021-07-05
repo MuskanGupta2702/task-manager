@@ -46,9 +46,13 @@
         <ul class="navListMobile">
             <li class="item"><a class="item-link" href="/">Home</a></li>
             <li class="item"><a class="item-link" href="#">About</a></li>
+            {% if 'user' in session %}
+            <li class="item"><a class="item-link" href="/logout">Log Out</a></li>
+            {% else %}   
             <li class="item"><a class="item-link" href="/register">Register</a></li>
             <li class="item"><a class="item-link" href="/login">Login</a></li>
-            <li class="item"><a class="item-link" href="#">Contact Us</a></li>
+            {% endif %}
+            <li class="item"><a class="item-link" href="/contact">Contact Us</a></li>
         </ul>
     </nav>
     {% with messages = get_flashed_messages() %}
